@@ -1,6 +1,7 @@
 #include <iostream>
 #include <thread> 
 
+//precisa validar se está correto
 void f_multplicacao(bool linha, int tamanho, float **m_a, float **m_b, float **m_c, float **m_d, float **m_e) {
     if(linha){
         m_d[i][j] = 0.0;
